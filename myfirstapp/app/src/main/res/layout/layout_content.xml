@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/a" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_favorite" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/imageView3"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="1,234" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                app:srcCompat="@drawable/ic_more" />
+        </RelativeLayout>
+
+        <View
+            android:background="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="winter"
+                android:layout_marginLeft="7dp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tv_comment"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="불꽃놀이 했어요."
+                android:layout_centerVertical="true"
+                android:textSize="22sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="100dp">
+
+        <include layout="@layout/layout_profile" />
+        <include layout="@layout/layout_profile2" />
+        <include layout="@layout/layout_profile3" />
+        <include layout="@layout/layout_profile4" />
+        <include layout="@layout/layout_profile5" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/layout_main" />
+            <include layout="@layout/layout_main2" />
+            <include layout="@layout/layout_main3" />
+            <include layout="@layout/layout_main4" />
+            <include layout="@layout/layout_main5" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

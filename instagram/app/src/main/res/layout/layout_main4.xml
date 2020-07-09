@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--리니어 레이아웃 버티컬1-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_pro1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/propic4"
+                    app:civ_border_color="#BDBDBD"
+                    app:civ_border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/bar_id"
+                    android:layout_width="78dp"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/img_pro1"
+                    android:gravity="center"
+                    android:text="boyoung"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
+
+                <ImageView
+                    android:id="@+id/img_more"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    app:srcCompat="@drawable/img_more_foreground" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!--리니어 레이아웃 버티컬2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/postpic4" />
+        </LinearLayout>
+
+        <!--리니어 레이아웃 버티컬3-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/like" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/imageView5"
+                    app:srcCompat="@drawable/chat_bubble" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/imageView6"
+                    app:srcCompat="@drawable/send" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bookmark" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!--리니어 레이아웃 버티컬4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/img_pro2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/propic5"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#BDBDBD"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/text_01"
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/img_pro2"
+                    android:gravity="center"
+                    android:text="Like By" />
+
+                <TextView
+                    android:id="@+id/text_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_toRightOf="@id/text_01"
+                    android:gravity="center"
+                    android:text="roseyg"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_toRightOf="@id/text_02"
+                    android:gravity="center"
+                    android:text="and" />
+
+                <TextView
+                    android:id="@+id/text_04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_toRightOf="@id/text_03"
+                    android:gravity="center"
+                    android:text="24 others"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!--리니어 레이아웃 버티컬5-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="dlwlrma"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="256dp"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/text2"
+                    android:gravity="center"
+                    android:text="#sundayfunday #beach #relax #biking"
+                    android:textColor="#0054FF" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!--리니어 레이아웃 버티컬6-->
+        <LinearLayout
+            android:layout_width="212dp"
+            android:layout_height="54dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/img_pro3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/propic1"
+                app:civ_border_color="#BDBDBD"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Add a comment...."
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <!--리니어 레이아웃 버티컬7-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="8 HOURS AGO"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</merge>
